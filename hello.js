@@ -1,8 +1,4 @@
-var mess = "Prva linija koda  u TS";
-//const lie :boolean = false, truth :boolean = true;
-var novi = "jeste";
-var fakeBroj = '5';
-//var boja = document.getElementsByTagName('body').innerText = "ffssdgsffvf";
+
 function bojica(){
     var dohvatanje = document.querySelector("#telo");
     dohvatanje.style.backgroundColor = "black";
@@ -27,14 +23,7 @@ document.getElementById('name').addEventListener('blur', function(){
     document.getElementById('err').innerText = `${encryptUsername}`;
 });
 
-console.log("Hello");
-var praviBroj = 5;
-var nekaVrednost = 78;
-var naslednaVrednost = "a";
 
-naslednaVrednost = nekaVrednost;
-console.log(naslednaVrednost);
-console.log(fakeBroj == praviBroj);
 var encrypted = CryptoJS.AES.encrypt("Message", "Secret Passphrase");
 //alert(encrypted.toString());
 var decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase");
